@@ -4,7 +4,7 @@ pipeline {
     stage('maven install') {
       steps {
 
-        sh 'install -d'
+        sh 'install -D'
 
       }
     }
